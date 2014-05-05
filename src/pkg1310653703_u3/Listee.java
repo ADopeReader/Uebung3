@@ -11,7 +11,7 @@ package pkg1310653703_u3;
  * @author Domi
  * @param <T>
  */
-public class Listee <T extends Benennbar2>{
+public class Listee <T extends Benennbar>{
     
     private Object[] a  ;
     private int size;

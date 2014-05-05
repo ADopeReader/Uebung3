@@ -10,7 +10,7 @@ package pkg1310653703_u3;
  *
  * @author Domi
  */
-public class Vehicle extends Benennbar2{
+public class Vehicle implements Benennbar{
 
     private String name;
     private String color;
@@ -28,7 +28,42 @@ public class Vehicle extends Benennbar2{
 
     @Override
     public void nenne(String a) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        name=a;
+    }
+    
+    
+    
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getTüren() {
+        return türen;
+    }
+
+    public void setTüren(int türen) {
+        this.türen = türen;
+    }
+
+    public int getPs() {
+        return ps;
+    }
+
+    public void setPs(int ps) {
+        this.ps = ps;
     }
     
  

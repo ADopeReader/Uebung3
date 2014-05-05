@@ -14,4 +14,6 @@ public interface Benennbar {
     
     public abstract void nenne(String a);
     
+    public abstract String getName();
+    
 }

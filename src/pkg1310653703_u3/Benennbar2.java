@@ -13,4 +13,14 @@ public abstract class Benennbar2 extends Object {
         name=a;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    
+
 }
