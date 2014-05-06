@@ -29,6 +29,7 @@ public class Main {
     list.save(2.0);
     list.save(5.0);
     list.save(200.0);
+    
     for (int i=0; i<list.getSize();i++)
             System.out.println(list.getA(i).toString());
     }
